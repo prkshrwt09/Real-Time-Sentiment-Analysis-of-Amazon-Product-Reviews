@@ -1,0 +1,38 @@
+# Real-Time Sentiment Analysis of Amazon Product Reviews
+
+This project uses Natural Language Processing (NLP) techniques to analyze and visualize customer sentiment in Amazon product reviews. The system integrates both rule-based and transformer-based sentiment models to provide real-time analysis and insights that can help businesses understand customer perception and predict future purchasing behavior.
+
+## 📌 Project Overview
+
+The goal is to develop a tool that:
+- Analyzes sentiment of Amazon product reviews using VADER and RoBERTa models.
+- Correlates sentiment polarity with actual star ratings.
+- Provides real-time predictions for incoming customer feedback.
+- Helps Amazon sellers or product teams assess customer satisfaction and proactively improve services.
+
+---
+
+## 📊 Features
+
+- **Data Preprocessing & Cleaning**: Handling missing values, tokenization, POS tagging using NLTK.
+- **Exploratory Data Analysis (EDA)**: Star rating distribution, helpfulness metrics, and keyword frequency.
+- **Sentiment Analysis**:
+  - **VADER**: Rule-based sentiment analysis (suitable for social media and reviews).
+  - **RoBERTa**: Deep learning-based sentiment classification using Hugging Face Transformers.
+- **Visualization**: Sentiment scores vs. review stars using Seaborn and Matplotlib.
+- **Real-Time Sentiment Prediction**: Immediate feedback on new review texts via the Transformers pipeline.
+
+---
+
+## 🧰 Tech Stack
+
+- **Languages**: Python  
+- **Libraries**:  
+  - `pandas`, `numpy` for data handling  
+  - `matplotlib`, `seaborn` for visualization  
+  - `nltk` for NLP preprocessing  
+  - `vaderSentiment` for lexicon-based sentiment  
+  - `transformers` (Hugging Face) for RoBERTa  
+- **Notebook Environment**: Jupyter
+
+---
